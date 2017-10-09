@@ -18,12 +18,12 @@ This build allow :
   - Special config for app
   - Access to log on host
 
-###Run
+### Run
 ```
 docker start -ai myGlassfish
 ```
 
-###Configuration
+### Configuration
 Add driver for database
 ```
 docker cp myDriver.jar myGlassfish:/glassfish4/glassfish/lib/
